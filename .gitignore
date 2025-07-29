@@ -1,0 +1,34 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environment folders
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore model files and outputs
+*.keras
+*.h5
+*.pb
+*.tflite
+*.onnx
+*.json
+*.ckpt
+*.log
+
+# Ignore datasets (usually large and better tracked with DVC or similar)
+train/
+valid/
+test/
+
+# Ignore temporary or hidden files
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
